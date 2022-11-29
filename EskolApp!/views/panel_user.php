@@ -11,6 +11,11 @@
         require_once('./model/courses.php');
         require_once('./model/class.php');
         require_once('./model/teachers.php');
+
+        $course = "SELECT * FROM courses";
+        $clase = "SELECT * FROM class";
+        $teacher = "SELECT * FROM teachers";
+
     
     ?>
 

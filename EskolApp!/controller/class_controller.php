@@ -6,6 +6,7 @@ require_once('./model/class.php');
 $clase = new clase();
 $clases = $clase->get_clase_all();
 
-require_once('./views/class_view.php');
+require_once('./views/panel_admin.php');
+require_once('./views/panel_user.php');
 
 ?>

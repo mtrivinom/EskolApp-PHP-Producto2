@@ -6,6 +6,7 @@ require_once('./model/teachers.php');
 $teacher = new teacher();
 $teachers = $teacher->get_teacher_all();
 
-require_once('./views/teachers_view.php');
+require_once('./views/panel_admin.php');
+require_once('./views/panel_user.php');
 
 ?>

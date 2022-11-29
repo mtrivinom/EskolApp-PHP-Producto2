@@ -16,7 +16,7 @@ if(isset($_POST)){
     $sql_user = "SELECT * FROM users WHERE id_user = 'id_user'";
     $login_user = mysqli_query($db, $sql_user);
 
-    $sql_admin = "SELECT * FROM users_admin WHERE email = '$email'";
+    $sql_admin = "SELECT * FROM users_admin WHERE email = 'email'";
     $login_admin = mysqli_query($db, $sql_admin);
 
     if($login_user && mysqli_num_rows($login_user) == 1){
@@ -32,3 +32,4 @@ if(isset($_POST)){
 }
 
 ?>
+

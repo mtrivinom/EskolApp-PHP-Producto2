@@ -38,7 +38,7 @@
     </header>
 
     <body class="body">
-
+        
         <div id="main-box">
         <div class="table_title">CURSOS</div>
         <div class=container_table>

@@ -25,6 +25,7 @@ else {
     echo '<br>No Modificado</br>';
 }
 
-require_once('./views/class_view.php');
+require_once('./views/panel_admin.php');
+require_once('./views/panel_user.php');
 
 ?>

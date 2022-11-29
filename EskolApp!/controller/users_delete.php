@@ -15,6 +15,7 @@ else {
     echo '<br>No Borrado</br>';
 }
 
-require_once('./views/users_view.php');
+require_once('./views/panel_admin.php');
+require_once('./views/panel_user.php');
 
 ?>
