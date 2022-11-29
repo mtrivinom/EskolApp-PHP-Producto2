@@ -1,6 +1,8 @@
 
 <?php 
 
+    require_once('./css/style.css');
+
     require_once('./model/conexion.php');
     require_once('./model/teachers.php');
     $teacher = "SELECT * FROM teachers";
@@ -14,11 +16,11 @@
 
 <html>
 
-    <header>
-        <title> ESKOLAPP </title>
+    <header class="header">
+        <title class="title"> ESKOLAPP </title>
     </header>
 
-    <body>
+    <body class="body">
 
         <div class="table_title">PROFESORES</div>
         <div class=container_table>
@@ -50,7 +52,7 @@
 
     </body>  
 
-    <footer>
+    <footer class="footer">
         <b> Ⓒ 2022 Pinpilinpauxa </b>
     </footer>
 

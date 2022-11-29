@@ -1,27 +1,21 @@
 
-header{
+.header{
     background-color: #71FFFD;
-    padding: 30px;
+    height: 150px;
+    padding: 50px;
 }
   
-footer{
+.footer{
     background-color: #71FFFD;
-    padding: 20px;
+    height: 50px;
+    padding: 0px;
 }
 
-body{
+.body{
     background-color: #E3FBF8;
 }
 
-a{
-    font-family: 'Roboto';
-    color: #000000;
-    font-size: 15px;
-    text-align: justify;
-    text-decoration: none;
-}
-
-title{
+.title{
     font-family: 'Roboto';
     color: #8B00FF;
     font-size: 40px;
@@ -32,23 +26,54 @@ title{
     text-decoration-color: #8B00FF;
 }
 
-h1{
+b{
     font-family: 'Roboto';
     color: #000000;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
+    text-decoration: none;
 }
 
-h2{
+.container_table{
+    background-color: #d5e6ff;
+    font-family: 'Roboto';
+    color: #000000;
+    font-size: 15x;
+    text-align: left;
+    text-decoration: none;
+}
+
+.table_title{
+    font-family: 'Roboto';
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.table_header{
     font-family: 'Roboto';
     color: #000000;
     font-size: 15px;
-    text-align: justify;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-h3{
+.table_item{
     font-family: 'Roboto';
     color: #000000;
-    font-size: 10px;
-    text-align: justify;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+}
+
+a{
+    font-family: 'Roboto';
+    color: #8f8f8f;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
 }
